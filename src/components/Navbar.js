@@ -15,7 +15,7 @@ const Navbar = () => {
             <BiLeftArrowAlt onClick={() => navigation('/')} />
           )}
         </li>
-        <li>{locate.pathname === '/' ? 'Country Info' : 'Country Details'}</li>
+        <li>{locate.pathname === '/' ? 'Country Info' : 'Details'}</li>
       </ul>
     </nav>
   );
