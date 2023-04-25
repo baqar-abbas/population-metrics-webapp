@@ -32,7 +32,7 @@
 
 # 📖 population-metrics-webapp <a name="about-project"></a>
 
-**population-metrics-webapp** is a Project which is fetching images and data through base API  and displaying them on the app pages. User can click on the available metrics images and can see the details on the details page. 
+**population-metrics-webapp** is a Project which is fetching images and data through base API and displaying them on the app pages. User can click on the available metrics and can see the details on the details page. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,10 +74,10 @@ Example commands:
 npm install
 
 ### Usage
-user must be able to see the Data fetched through API and must be able to see the details of population data country wise. 
+user must be able to see the Data fetched through API and must be able to see the details of population data country wise. When user clicks on any country all the details associated with that country must popup in details page. 
 
 ### Run tests
-Click on country populations metric user must be able to see the details associated with country's population.
+Click on country populations metric user must be able to see the details associated with country's population and other associated details with that country.
 
 ### Deployment
 The Project will be deployed after final approval.
