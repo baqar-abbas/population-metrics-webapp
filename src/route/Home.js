@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import { BiArrowToRight } from 'react-icons/bi';
 import { eachCountry } from '../redux/nations/nationsslice';
 import Nation from '../components/Nation';
 
@@ -11,7 +12,6 @@ function Home() {
   }, [dispatch]);
 
   const nations = useSelector((store) => store.nationReducer);
-  console.log(nations.name);
 
   const [finder, setFinder] = useState('');
 
@@ -31,9 +31,10 @@ function Home() {
         <input
           type="text"
           className="search-bar"
-          placeholder="country name"
+          placeholder="search country by name"
           onChange={handleSearch}
         />
+        <h2 className="populationh2">Country shown by population size</h2>
       </div>
       <div className="nation-holder">
         {displayNations.map((nation) => (
@@ -45,6 +46,7 @@ function Home() {
               state: { stateParam: true },
             }}
           >
+            <BiArrowToRight className="toDetails" />
             <Nation
               key={nation.id}
               id={nation.id}
