@@ -118,7 +118,7 @@ If you like this project please consider leaving a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks Behance for their design contributions to this project. Special thanks to the author of the design Nelson Sakwa [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for his wonderful design creation.
+I would like to thanks Behance for their design contributions to this project. Special thanks to the author of the design [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for his wonderful design creation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
