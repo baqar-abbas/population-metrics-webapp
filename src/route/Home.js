@@ -34,7 +34,7 @@ function Home() {
           placeholder="search country by name"
           onChange={handleSearch}
         />
-        <h2 className="populationh2">Country shown by population size</h2>
+        <h2 className="populationh2">Country by population size</h2>
       </div>
       <div className="nation-holder">
         {displayNations.map((nation) => (

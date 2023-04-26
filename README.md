@@ -32,7 +32,7 @@
 
 # 📖 population-metrics-webapp <a name="about-project"></a>
 
-**population-metrics-webapp** is a Project which is fetching images and data through base API and displaying them on the app pages. User can click on the available metrics and can see the details on the details page. 
+**population-metrics-webapp** is a Project which is fetching images and data through Rest Countries API and displaying them on the app pages. User can click on the available metrics and can see the details on the details page. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,7 +48,9 @@ React Redux and API
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-- [Live Demo](Will be available after final approval)
+- [Live Demo](https://population-metrics-webapp.netlify.app/)
+
+- [Live Video Presentation](https://www.loom.com/share/eda1496fd80a40e6b3a197712c9236cb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

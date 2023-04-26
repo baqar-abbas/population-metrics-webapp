@@ -15,6 +15,7 @@ const Navbar = () => {
           ) : (
             <BiLeftArrowAlt className="backarrow" onClick={() => navigation('/')} />
           )}
+          <span className="dateyear">2023</span>
         </li>
         <li className="headdetails">{locate.pathname === '/' ? 'Country Information' : 'Details'}</li>
         <div className="icons">
