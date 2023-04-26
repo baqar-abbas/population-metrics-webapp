@@ -1,0 +1,175 @@
+ul {
+  list-style-type: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 40px;
+  background-color: #cb4276;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list > li {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.headdetails {
+  position: relative;
+  bottom: 0.25rem;
+}
+
+.dateyear {
+  position: relative;
+  bottom: 0.25rem;
+}
+
+.backarrow {
+  color: white;
+  font-size: 24px;
+}
+
+.settings {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.microphone {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.nation-holder {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  background-color: #f8669c;
+}
+
+.flag-bearer img {
+  max-width: 70%;
+  height: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.details-tab {
+  text-decoration: none;
+  height: 150px;
+}
+
+.details-tab:nth-child(4n + 3),
+.details-tab:nth-child(4n + 2) {
+  background-color: #cb4276;
+}
+
+.detail-container {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.description {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.toDetails {
+  color: white;
+  font-size: 30px;
+  float: right;
+}
+
+.search-bar-container {
+  height: 100px;
+  background-color: #fa73a4;
+}
+
+.search-bar-container h2 {
+  color: white;
+}
+
+.search-bar {
+  border-radius: 20px;
+  border: none;
+  background-color: #fbafcb;
+  height: 2.4em;
+  padding: 1em;
+  font-size: 1.3em;
+  margin: 1em 0.2em;
+}
+
+.populationh2 {
+  position: relative;
+  bottom: 1.4rem;
+  margin-left: 0.2em;
+}
+
+.details-container {
+  height: 100vh;
+}
+
+.heading {
+  height: 50vh;
+  background-color: #fa73a4;
+  padding: 2rem;
+}
+
+.heading img {
+  max-height: 75%;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading h2 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2em;
+  color: white;
+}
+
+.more-details {
+  background-color: #cb4276;
+}
+
+.more-details p {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1em 0.6em;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.details-span {
+  position: relative;
+  left: 18%;
+}
+
+.details-span2 {
+  position: absolute;
+  left: 3%;
+}
+
+.more-details p:nth-child(even) {
+  background-color: #fa73a4;
+}
