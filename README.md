@@ -76,6 +76,8 @@ Example commands:
 npm install
 
 ### Usage
+npm start
+
 user must be able to see the Data fetched through API and must be able to see the details of population data country wise. When user clicks on any country all the details associated with that country must popup in details page. 
 
 ### Run tests
