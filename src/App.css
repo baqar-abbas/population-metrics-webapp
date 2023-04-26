@@ -26,6 +26,16 @@ nav {
   font-weight: bolder;
 }
 
+.headdetails {
+  position: relative;
+  bottom: 0.25rem;
+}
+
+.dateyear {
+  position: relative;
+  bottom: 0.25rem;
+}
+
 .backarrow {
   color: white;
   font-size: 24px;
@@ -152,7 +162,7 @@ a {
 
 .details-span {
   position: relative;
-  left: 20%;
+  left: 18%;
 }
 
 .details-span2 {
