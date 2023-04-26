@@ -32,7 +32,7 @@
 
 # 📖 population-metrics-webapp <a name="about-project"></a>
 
-**population-metrics-webapp** is a Mobile Webapp Project which is fetching images and data through Rest Countries API and displaying them on the app pages. User can click on the available country/ pupulation metrics and can see the details on the details page. 
+**population-metrics-webapp** is a Mobile Webapp Project which is fetching images and data through Rest Countries API and displaying them on the app pages. User can click on the available country/ population metrics and can see the details on the details page. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
