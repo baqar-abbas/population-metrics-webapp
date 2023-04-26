@@ -79,6 +79,8 @@ npm install
 user must be able to see the Data fetched through API and must be able to see the details of population data country wise. When user clicks on any country all the details associated with that country must popup in details page. 
 
 ### Run tests
+npm run test
+
 Click on country populations metric user must be able to see the details associated with country's population and other associated details with that country.
 
 ### Deployment
@@ -116,7 +118,7 @@ If you like this project please consider leaving a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks Behance for their design contributions to this project. Special thanks to the author of the design Nelson Sakwa for his wonderful design creation.
+I would like to thanks Behance for their design contributions to this project. Special thanks to the author of the design Nelson Sakwa [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for his wonderful design creation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
